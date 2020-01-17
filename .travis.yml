@@ -1,0 +1,25 @@
+language: minimal
+
+branches:
+  only:
+    - master
+
+services:
+  - docker
+
+script:
+  - version=$(mktemp)
+  - docker build --tag elnebuloso/prettier --pull --rm --no-cache --file Dockerfile .
+  - docker run -it elnebuloso/prettier prettier --version > ${version}
+  - cat ${version}
+  - export MAJOR=$(cat ${version} | cut -d. -f1)
+  - export MINOR=$(cat ${version} | cut -d. -f2)
+  - export PATCH=$(cat ${version} | cut -d. -f3)
+#  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+#  - docker tag elnebuloso/prettier elnebuloso/prettier:${MAJOR}.${MINOR}.${PATCH}
+#  - docker tag elnebuloso/prettier elnebuloso/prettier:${MAJOR}.${MINOR}
+#  - docker tag elnebuloso/prettier elnebuloso/prettier:${MAJOR}
+#  - docker push elnebuloso/prettier:${MAJOR}.${MINOR}.${PATCH}
+#  - docker push elnebuloso/prettier:${MAJOR}.${MINOR}
+#  - docker push elnebuloso/prettier:${MAJOR}
+#  - docker push elnebuloso/prettier

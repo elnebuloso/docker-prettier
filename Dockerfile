@@ -3,7 +3,7 @@ FROM node:13-alpine as prod
 RUN echo "install packages" \
     && apk update \
     && apk add bash git \
-    && npm install prettier @prettier/plugin-php --global
+    && npm install prettier @prettier/plugin-php @prettier/plugin-xml --global
 
 COPY docker/bin /usr/local/bin
 

@@ -1,4 +1,9 @@
 # docker-prettier
+
+[![Build Status](https://travis-ci.com/elnebuloso/docker-prettier.svg?branch=master)](https://travis-ci.com/elnebuloso/docker-prettier)
+[![Docker Pulls](https://img.shields.io/docker/pulls/elnebuloso/prettier.svg)](https://hub.docker.com/r/elnebuloso/prettier)
+[![GitHub](https://img.shields.io/github/license/elnebuloso/docker-ansible.svg)](https://github.com/elnebuloso/docker-prettier)
+
 Dockerized Prettier
 
 ## container development
@@ -14,10 +19,12 @@ docker-compose run main
 docker-compose run main --version
 
 # fix
-docker-compose run main --single-quote --trailing-comma es5 --write "/prettier/test-fix/**/*"
+docker-compose run main --single-quote --trailing-comma es5 --trailing-comma-php all --write "/prettier/test-fix/**/*"
 ```
 
 ## links
 
 - https://prettier.io/
 - https://prettier.io/docs/en/cli.html
+- https://github.com/prettier/plugin-php
+- https://github.com/prettier/plugin-xml

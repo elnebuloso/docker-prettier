@@ -10,7 +10,6 @@ array_map(
         'complex' => 'code',
         'with' => 'inconsistent',
         'formatting' => 'is',
-        'hard' => 'to',
-        'maintain' => true
-    )
+        'maintain' => true,
+    ),
 );
