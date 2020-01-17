@@ -11,6 +11,10 @@ Dockerized Prettier
 - https://hub.docker.com/r/elnebuloso/prettier
 - https://hub.docker.com/r/elnebuloso/prettier/tags
 
+## weekly builds
+
+- https://travis-ci.com/elnebuloso/docker-prettier
+
 ## container development
 
 ```
