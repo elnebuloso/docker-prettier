@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/elnebuloso/docker-prettier/master/logo.png" width="100%"/>
+
 # docker-prettier
 
 ![Release](https://github.com/elnebuloso/docker-prettier/workflows/Release/badge.svg)
