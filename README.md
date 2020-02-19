@@ -2,7 +2,7 @@
 
 ![Release](https://github.com/elnebuloso/docker-prettier/workflows/Release/badge.svg)
 [![Docker Pulls](https://img.shields.io/docker/pulls/elnebuloso/prettier.svg)](https://hub.docker.com/r/elnebuloso/prettier)
-[![GitHub](https://img.shields.io/github/license/elnebuloso/docker-ansible.svg)](https://github.com/elnebuloso/docker-prettier)
+[![GitHub](https://img.shields.io/github/license/elnebuloso/docker-prettier.svg)](https://github.com/elnebuloso/docker-prettier)
 
 Dockerized Prettier
 
