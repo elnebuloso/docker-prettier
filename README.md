@@ -1,6 +1,6 @@
 # docker-prettier
 
-[![Build Status](https://travis-ci.com/elnebuloso/docker-prettier.svg?branch=master)](https://travis-ci.com/elnebuloso/docker-prettier)
+![Release](https://github.com/elnebuloso/docker-prettier/workflows/Release/badge.svg)
 [![Docker Pulls](https://img.shields.io/docker/pulls/elnebuloso/prettier.svg)](https://hub.docker.com/r/elnebuloso/prettier)
 [![GitHub](https://img.shields.io/github/license/elnebuloso/docker-ansible.svg)](https://github.com/elnebuloso/docker-prettier)
 
